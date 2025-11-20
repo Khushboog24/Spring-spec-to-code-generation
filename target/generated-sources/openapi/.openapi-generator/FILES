@@ -1,0 +1,10 @@
+src/main/java/org/openapitools/api/AddinternApi.java
+src/main/java/org/openapitools/api/AddinternApiDelegate.java
+src/main/java/org/openapitools/api/ApiUtil.java
+src/main/java/org/openapitools/api/DeleteinternApi.java
+src/main/java/org/openapitools/api/DeleteinternApiDelegate.java
+src/main/java/org/openapitools/api/GetinternsApi.java
+src/main/java/org/openapitools/api/GetinternsApiDelegate.java
+src/main/java/org/openapitools/api/UpdateinternApi.java
+src/main/java/org/openapitools/api/UpdateinternApiDelegate.java
+src/main/java/org/openapitools/model/Intern.java

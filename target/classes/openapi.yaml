@@ -1,0 +1,173 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "OpenAPI definition",
+    "version": "v0"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:8080",
+      "description": "Generated server url"
+    }
+  ],
+  "paths": {
+    "/updateintern": {
+      "post": {
+        "tags": [
+          "intern-controller"
+        ],
+        "operationId": "updateintern",
+        "parameters": [
+          {
+            "name": "internId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/intern"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/addintern": {
+      "post": {
+        "tags": [
+          "intern-controller"
+        ],
+        "operationId": "addintern",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/intern"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/getinterns": {
+      "get": {
+        "tags": [
+          "intern-controller"
+        ],
+        "operationId": "getinterns",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/intern"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/deleteintern": {
+      "delete": {
+        "tags": [
+          "intern-controller"
+        ],
+        "operationId": "deleteintern",
+        "parameters": [
+          {
+            "name": "internId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "intern": {
+        "type": "object",
+        "properties": {
+          "internId": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "rollNo": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 10
+          },
+          "firstName": {
+            "type": "string"
+          },
+          "lastName": {
+            "type": "string"
+          },
+          "contactNo": {
+            "type": "string"
+          },
+          "fatherName": {
+            "type": "string"
+          },
+          "motherName": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,313 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< org.khushboo:codeGenerationUsingSpec >----------------
+[INFO] Building codeGenerationUsingSpec 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.4.1:clean (default-clean) @ codeGenerationUsingSpec ---
+[INFO] Deleting /Users/khushboo/Downloads/codeGenerationUsingSpec/target
+[INFO] 
+[INFO] --- openapi-generator:7.6.0:generate (generate-api) @ codeGenerationUsingSpec ---
+[WARNING] Generation using 3.1.0 specs is in development and is not officially supported yet. If you would like to expedite development, please consider woking on the open issues in the 3.1.0 project: https://github.com/orgs/OpenAPITools/projects/4/views/1 and reach out to our team on Slack at https://join.slack.com/t/openapi-generator/shared_invite/zt-12jxxd7p2-XUeQM~4pzsU9x~eGLQqX2g
+[INFO] Generating with dryRun=false
+[INFO] Output directory (/Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi) does not exist, or is inaccessible. No file (.openapi-generator-ignore) will be evaluated.
+[INFO] OpenAPI Generator: spring (server)
+[INFO] Generator 'spring' is considered stable.
+[INFO] ----------------------------------
+[INFO] Set base package to invoker package (com.school.demo.invoker)
+[INFO] Environment variable JAVA_POST_PROCESS_FILE not defined so the Java code may not be properly formatted. To define it, try 'export JAVA_POST_PROCESS_FILE="/usr/local/bin/clang-format -i"' (Linux/Mac)
+[INFO] NOTE: To enable file post-processing, 'enablePostProcessFile' must be set to `true` (--enable-post-process-file for CLI).
+[INFO] Processing operation updateintern
+[INFO] Processing operation addintern
+[INFO] Processing operation getinterns
+[INFO] Processing operation deleteintern
+[WARNING] Generation using 3.1.0 specs is in development and is not officially supported yet. If you would like to expedite development, please consider woking on the open issues in the 3.1.0 project: https://github.com/orgs/OpenAPITools/projects/4/views/1 and reach out to our team on Slack at https://join.slack.com/t/openapi-generator/shared_invite/zt-12jxxd7p2-XUeQM~4pzsU9x~eGLQqX2g
+[INFO] writing file /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/model/Intern.java
+[INFO] writing file /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/AddinternApi.java
+[INFO] writing file /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/DeleteinternApi.java
+[INFO] writing file /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/GetinternsApi.java
+[INFO] writing file /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/UpdateinternApi.java
+[INFO] Skipping generation of Webhooks.
+[INFO] writing file /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/pom.xml
+[INFO] writing file /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/README.md
+[INFO] writing file /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/ApiUtil.java
+[INFO] writing file /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/.openapi-generator-ignore
+[INFO] writing file /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/.openapi-generator/VERSION
+[INFO] writing file /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/.openapi-generator/FILES
+################################################################################
+# Thanks for using OpenAPI Generator.                                          #
+# Please consider donation to help us maintain this project 🙏                 #
+# https://opencollective.com/openapi_generator/donate                          #
+################################################################################
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ codeGenerationUsingSpec ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ codeGenerationUsingSpec ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 7 source files with javac [debug parameters release 17] to target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/AddinternApi.java:[9,37] package io.swagger.v3.oas.annotations does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/AddinternApi.java:[10,37] package io.swagger.v3.oas.annotations does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/AddinternApi.java:[11,37] package io.swagger.v3.oas.annotations does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/AddinternApi.java:[12,37] package io.swagger.v3.oas.annotations does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/AddinternApi.java:[13,43] package io.swagger.v3.oas.annotations.media does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/AddinternApi.java:[14,43] package io.swagger.v3.oas.annotations.media does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/AddinternApi.java:[15,43] package io.swagger.v3.oas.annotations.media does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/AddinternApi.java:[16,47] package io.swagger.v3.oas.annotations.responses does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/AddinternApi.java:[17,46] package io.swagger.v3.oas.annotations.security does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/AddinternApi.java:[18,42] package io.swagger.v3.oas.annotations.tags does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/AddinternApi.java:[19,43] package io.swagger.v3.oas.annotations.enums does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/AddinternApi.java:[20,32] package org.springframework.http does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/AddinternApi.java:[21,32] package org.springframework.http does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/AddinternApi.java:[22,32] package org.springframework.http does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/AddinternApi.java:[25,47] package org.springframework.web.context.request does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/AddinternApi.java:[26,41] package org.springframework.web.multipart does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/AddinternApi.java:[28,24] package javax.validation does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/AddinternApi.java:[33,24] package javax.annotation does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/AddinternApi.java:[35,2] cannot find symbol
+  symbol: class Generated
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/AddinternApi.java:[37,2] cannot find symbol
+  symbol: class Tag
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/AddinternApi.java:[40,22] cannot find symbol
+  symbol:   class NativeWebRequest
+  location: interface com.school.demo.api.AddinternApi
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/model/Intern.java:[5,40] package com.fasterxml.jackson.annotation does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/model/Intern.java:[6,40] package com.fasterxml.jackson.annotation does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/model/Intern.java:[7,40] package com.fasterxml.jackson.annotation does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/model/Intern.java:[8,41] package org.openapitools.jackson.nullable does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/model/Intern.java:[10,24] package javax.validation does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/model/Intern.java:[12,43] package io.swagger.v3.oas.annotations.media does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/model/Intern.java:[16,24] package javax.annotation does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/model/Intern.java:[22,2] cannot find symbol
+  symbol: class JsonTypeName
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/model/Intern.java:[23,2] cannot find symbol
+  symbol: class Generated
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/AddinternApi.java:[66,13] cannot find symbol
+  symbol:   class ResponseEntity
+  location: interface com.school.demo.api.AddinternApi
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/AddinternApi.java:[24,36] package org.springframework.web.bind.annotation does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/AddinternApi.java:[29,24] package javax.validation.constraints does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/model/Intern.java:[11,24] package javax.validation.constraints does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/ApiUtil.java:[3,47] package org.springframework.web.context.request does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/ApiUtil.java:[5,26] package javax.servlet.http does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/ApiUtil.java:[9,43] cannot find symbol
+  symbol:   class NativeWebRequest
+  location: class com.school.demo.api.ApiUtil
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/DeleteinternApi.java:[8,37] package io.swagger.v3.oas.annotations does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/DeleteinternApi.java:[9,37] package io.swagger.v3.oas.annotations does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/DeleteinternApi.java:[10,37] package io.swagger.v3.oas.annotations does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/DeleteinternApi.java:[11,37] package io.swagger.v3.oas.annotations does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/DeleteinternApi.java:[12,43] package io.swagger.v3.oas.annotations.media does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/DeleteinternApi.java:[13,43] package io.swagger.v3.oas.annotations.media does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/DeleteinternApi.java:[14,43] package io.swagger.v3.oas.annotations.media does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/DeleteinternApi.java:[15,47] package io.swagger.v3.oas.annotations.responses does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/DeleteinternApi.java:[16,46] package io.swagger.v3.oas.annotations.security does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/DeleteinternApi.java:[17,42] package io.swagger.v3.oas.annotations.tags does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/DeleteinternApi.java:[18,43] package io.swagger.v3.oas.annotations.enums does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/DeleteinternApi.java:[19,32] package org.springframework.http does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/DeleteinternApi.java:[20,32] package org.springframework.http does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/DeleteinternApi.java:[21,32] package org.springframework.http does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/DeleteinternApi.java:[24,47] package org.springframework.web.context.request does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/DeleteinternApi.java:[25,41] package org.springframework.web.multipart does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/DeleteinternApi.java:[27,24] package javax.validation does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/DeleteinternApi.java:[32,24] package javax.annotation does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/DeleteinternApi.java:[34,2] cannot find symbol
+  symbol: class Generated
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/DeleteinternApi.java:[36,2] cannot find symbol
+  symbol: class Tag
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/DeleteinternApi.java:[39,22] cannot find symbol
+  symbol:   class NativeWebRequest
+  location: interface com.school.demo.api.DeleteinternApi
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/DeleteinternApi.java:[64,13] cannot find symbol
+  symbol:   class ResponseEntity
+  location: interface com.school.demo.api.DeleteinternApi
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/DeleteinternApi.java:[23,36] package org.springframework.web.bind.annotation does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/DeleteinternApi.java:[28,24] package javax.validation.constraints does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/GetinternsApi.java:[9,37] package io.swagger.v3.oas.annotations does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/GetinternsApi.java:[10,37] package io.swagger.v3.oas.annotations does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/GetinternsApi.java:[11,37] package io.swagger.v3.oas.annotations does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/GetinternsApi.java:[12,37] package io.swagger.v3.oas.annotations does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/GetinternsApi.java:[13,43] package io.swagger.v3.oas.annotations.media does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/GetinternsApi.java:[14,43] package io.swagger.v3.oas.annotations.media does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/GetinternsApi.java:[15,43] package io.swagger.v3.oas.annotations.media does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/GetinternsApi.java:[16,47] package io.swagger.v3.oas.annotations.responses does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/GetinternsApi.java:[17,46] package io.swagger.v3.oas.annotations.security does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/GetinternsApi.java:[18,42] package io.swagger.v3.oas.annotations.tags does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/GetinternsApi.java:[19,43] package io.swagger.v3.oas.annotations.enums does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/GetinternsApi.java:[20,32] package org.springframework.http does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/GetinternsApi.java:[21,32] package org.springframework.http does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/GetinternsApi.java:[22,32] package org.springframework.http does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/GetinternsApi.java:[25,47] package org.springframework.web.context.request does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/GetinternsApi.java:[26,41] package org.springframework.web.multipart does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/GetinternsApi.java:[28,24] package javax.validation does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/GetinternsApi.java:[33,24] package javax.annotation does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/GetinternsApi.java:[35,2] cannot find symbol
+  symbol: class Generated
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/GetinternsApi.java:[37,2] cannot find symbol
+  symbol: class Tag
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/GetinternsApi.java:[40,22] cannot find symbol
+  symbol:   class NativeWebRequest
+  location: interface com.school.demo.api.GetinternsApi
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/GetinternsApi.java:[64,13] cannot find symbol
+  symbol:   class ResponseEntity
+  location: interface com.school.demo.api.GetinternsApi
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/GetinternsApi.java:[24,36] package org.springframework.web.bind.annotation does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/GetinternsApi.java:[29,24] package javax.validation.constraints does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/UpdateinternApi.java:[9,37] package io.swagger.v3.oas.annotations does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/UpdateinternApi.java:[10,37] package io.swagger.v3.oas.annotations does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/UpdateinternApi.java:[11,37] package io.swagger.v3.oas.annotations does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/UpdateinternApi.java:[12,37] package io.swagger.v3.oas.annotations does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/UpdateinternApi.java:[13,43] package io.swagger.v3.oas.annotations.media does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/UpdateinternApi.java:[14,43] package io.swagger.v3.oas.annotations.media does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/UpdateinternApi.java:[15,43] package io.swagger.v3.oas.annotations.media does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/UpdateinternApi.java:[16,47] package io.swagger.v3.oas.annotations.responses does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/UpdateinternApi.java:[17,46] package io.swagger.v3.oas.annotations.security does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/UpdateinternApi.java:[18,42] package io.swagger.v3.oas.annotations.tags does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/UpdateinternApi.java:[19,43] package io.swagger.v3.oas.annotations.enums does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/UpdateinternApi.java:[20,32] package org.springframework.http does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/UpdateinternApi.java:[21,32] package org.springframework.http does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/UpdateinternApi.java:[22,32] package org.springframework.http does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/UpdateinternApi.java:[25,47] package org.springframework.web.context.request does not exist
+[INFO] 100 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.272 s
+[INFO] Finished at: 2025-10-14T12:04:07+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.14.0:compile (default-compile) on project codeGenerationUsingSpec: Compilation failure: Compilation failure: 
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/AddinternApi.java:[9,37] package io.swagger.v3.oas.annotations does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/AddinternApi.java:[10,37] package io.swagger.v3.oas.annotations does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/AddinternApi.java:[11,37] package io.swagger.v3.oas.annotations does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/AddinternApi.java:[12,37] package io.swagger.v3.oas.annotations does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/AddinternApi.java:[13,43] package io.swagger.v3.oas.annotations.media does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/AddinternApi.java:[14,43] package io.swagger.v3.oas.annotations.media does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/AddinternApi.java:[15,43] package io.swagger.v3.oas.annotations.media does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/AddinternApi.java:[16,47] package io.swagger.v3.oas.annotations.responses does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/AddinternApi.java:[17,46] package io.swagger.v3.oas.annotations.security does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/AddinternApi.java:[18,42] package io.swagger.v3.oas.annotations.tags does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/AddinternApi.java:[19,43] package io.swagger.v3.oas.annotations.enums does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/AddinternApi.java:[20,32] package org.springframework.http does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/AddinternApi.java:[21,32] package org.springframework.http does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/AddinternApi.java:[22,32] package org.springframework.http does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/AddinternApi.java:[25,47] package org.springframework.web.context.request does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/AddinternApi.java:[26,41] package org.springframework.web.multipart does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/AddinternApi.java:[28,24] package javax.validation does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/AddinternApi.java:[33,24] package javax.annotation does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/AddinternApi.java:[35,2] cannot find symbol
+[ERROR]   symbol: class Generated
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/AddinternApi.java:[37,2] cannot find symbol
+[ERROR]   symbol: class Tag
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/AddinternApi.java:[40,22] cannot find symbol
+[ERROR]   symbol:   class NativeWebRequest
+[ERROR]   location: interface com.school.demo.api.AddinternApi
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/model/Intern.java:[5,40] package com.fasterxml.jackson.annotation does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/model/Intern.java:[6,40] package com.fasterxml.jackson.annotation does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/model/Intern.java:[7,40] package com.fasterxml.jackson.annotation does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/model/Intern.java:[8,41] package org.openapitools.jackson.nullable does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/model/Intern.java:[10,24] package javax.validation does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/model/Intern.java:[12,43] package io.swagger.v3.oas.annotations.media does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/model/Intern.java:[16,24] package javax.annotation does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/model/Intern.java:[22,2] cannot find symbol
+[ERROR]   symbol: class JsonTypeName
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/model/Intern.java:[23,2] cannot find symbol
+[ERROR]   symbol: class Generated
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/AddinternApi.java:[66,13] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: interface com.school.demo.api.AddinternApi
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/AddinternApi.java:[24,36] package org.springframework.web.bind.annotation does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/AddinternApi.java:[29,24] package javax.validation.constraints does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/model/Intern.java:[11,24] package javax.validation.constraints does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/ApiUtil.java:[3,47] package org.springframework.web.context.request does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/ApiUtil.java:[5,26] package javax.servlet.http does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/ApiUtil.java:[9,43] cannot find symbol
+[ERROR]   symbol:   class NativeWebRequest
+[ERROR]   location: class com.school.demo.api.ApiUtil
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/DeleteinternApi.java:[8,37] package io.swagger.v3.oas.annotations does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/DeleteinternApi.java:[9,37] package io.swagger.v3.oas.annotations does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/DeleteinternApi.java:[10,37] package io.swagger.v3.oas.annotations does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/DeleteinternApi.java:[11,37] package io.swagger.v3.oas.annotations does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/DeleteinternApi.java:[12,43] package io.swagger.v3.oas.annotations.media does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/DeleteinternApi.java:[13,43] package io.swagger.v3.oas.annotations.media does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/DeleteinternApi.java:[14,43] package io.swagger.v3.oas.annotations.media does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/DeleteinternApi.java:[15,47] package io.swagger.v3.oas.annotations.responses does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/DeleteinternApi.java:[16,46] package io.swagger.v3.oas.annotations.security does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/DeleteinternApi.java:[17,42] package io.swagger.v3.oas.annotations.tags does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/DeleteinternApi.java:[18,43] package io.swagger.v3.oas.annotations.enums does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/DeleteinternApi.java:[19,32] package org.springframework.http does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/DeleteinternApi.java:[20,32] package org.springframework.http does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/DeleteinternApi.java:[21,32] package org.springframework.http does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/DeleteinternApi.java:[24,47] package org.springframework.web.context.request does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/DeleteinternApi.java:[25,41] package org.springframework.web.multipart does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/DeleteinternApi.java:[27,24] package javax.validation does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/DeleteinternApi.java:[32,24] package javax.annotation does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/DeleteinternApi.java:[34,2] cannot find symbol
+[ERROR]   symbol: class Generated
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/DeleteinternApi.java:[36,2] cannot find symbol
+[ERROR]   symbol: class Tag
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/DeleteinternApi.java:[39,22] cannot find symbol
+[ERROR]   symbol:   class NativeWebRequest
+[ERROR]   location: interface com.school.demo.api.DeleteinternApi
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/DeleteinternApi.java:[64,13] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: interface com.school.demo.api.DeleteinternApi
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/DeleteinternApi.java:[23,36] package org.springframework.web.bind.annotation does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/DeleteinternApi.java:[28,24] package javax.validation.constraints does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/GetinternsApi.java:[9,37] package io.swagger.v3.oas.annotations does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/GetinternsApi.java:[10,37] package io.swagger.v3.oas.annotations does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/GetinternsApi.java:[11,37] package io.swagger.v3.oas.annotations does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/GetinternsApi.java:[12,37] package io.swagger.v3.oas.annotations does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/GetinternsApi.java:[13,43] package io.swagger.v3.oas.annotations.media does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/GetinternsApi.java:[14,43] package io.swagger.v3.oas.annotations.media does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/GetinternsApi.java:[15,43] package io.swagger.v3.oas.annotations.media does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/GetinternsApi.java:[16,47] package io.swagger.v3.oas.annotations.responses does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/GetinternsApi.java:[17,46] package io.swagger.v3.oas.annotations.security does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/GetinternsApi.java:[18,42] package io.swagger.v3.oas.annotations.tags does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/GetinternsApi.java:[19,43] package io.swagger.v3.oas.annotations.enums does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/GetinternsApi.java:[20,32] package org.springframework.http does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/GetinternsApi.java:[21,32] package org.springframework.http does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/GetinternsApi.java:[22,32] package org.springframework.http does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/GetinternsApi.java:[25,47] package org.springframework.web.context.request does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/GetinternsApi.java:[26,41] package org.springframework.web.multipart does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/GetinternsApi.java:[28,24] package javax.validation does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/GetinternsApi.java:[33,24] package javax.annotation does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/GetinternsApi.java:[35,2] cannot find symbol
+[ERROR]   symbol: class Generated
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/GetinternsApi.java:[37,2] cannot find symbol
+[ERROR]   symbol: class Tag
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/GetinternsApi.java:[40,22] cannot find symbol
+[ERROR]   symbol:   class NativeWebRequest
+[ERROR]   location: interface com.school.demo.api.GetinternsApi
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/GetinternsApi.java:[64,13] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: interface com.school.demo.api.GetinternsApi
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/GetinternsApi.java:[24,36] package org.springframework.web.bind.annotation does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/GetinternsApi.java:[29,24] package javax.validation.constraints does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/UpdateinternApi.java:[9,37] package io.swagger.v3.oas.annotations does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/UpdateinternApi.java:[10,37] package io.swagger.v3.oas.annotations does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/UpdateinternApi.java:[11,37] package io.swagger.v3.oas.annotations does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/UpdateinternApi.java:[12,37] package io.swagger.v3.oas.annotations does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/UpdateinternApi.java:[13,43] package io.swagger.v3.oas.annotations.media does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/UpdateinternApi.java:[14,43] package io.swagger.v3.oas.annotations.media does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/UpdateinternApi.java:[15,43] package io.swagger.v3.oas.annotations.media does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/UpdateinternApi.java:[16,47] package io.swagger.v3.oas.annotations.responses does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/UpdateinternApi.java:[17,46] package io.swagger.v3.oas.annotations.security does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/UpdateinternApi.java:[18,42] package io.swagger.v3.oas.annotations.tags does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/UpdateinternApi.java:[19,43] package io.swagger.v3.oas.annotations.enums does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/UpdateinternApi.java:[20,32] package org.springframework.http does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/UpdateinternApi.java:[21,32] package org.springframework.http does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/UpdateinternApi.java:[22,32] package org.springframework.http does not exist
+[ERROR] /Users/khushboo/Downloads/codeGenerationUsingSpec/target/generated-sources/openapi/src/main/java/com/school/demo/api/UpdateinternApi.java:[25,47] package org.springframework.web.context.request does not exist
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
